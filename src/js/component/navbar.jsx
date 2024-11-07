@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const NavbarComponent = () => {
+export const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
             <a className="navbar-brand" href="#">Scentopia</a>

@@ -1,8 +1,8 @@
 import React from "react";
-import { NavbarComponent } from './navbar';
-import { JumbotronComponent } from './jumbotron';
-import { CardComponent } from './cards';
-import { FooterComponent } from "./footer";
+import { Navbar } from './navbar';
+import { Jumbotron } from './jumbotron';
+import { Card } from './cards';
+import { Footer } from "./footer";
 
 
 
@@ -10,14 +10,14 @@ import { FooterComponent } from "./footer";
 const Home = () => {
 	return (
 		<div>
-			<NavbarComponent />
-			<JumbotronComponent />
+			<Navbar />
+			<Jumbotron />
 			<div className="container">
 				<div className="row">
-					<CardComponent />
+					<Card />
 				</div>
 			</div>
-			<FooterComponent />
+			<Footer />
 		</div>
 	);
 };

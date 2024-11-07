@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const CardComponent = () => {
+export const Card = () => {
 
     const cardData = [
         {
