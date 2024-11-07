@@ -9,7 +9,7 @@ import { Footer } from "./footer";
 
 const Home = () => {
 	return (
-		<div>
+		<>
 			<Navbar />
 			<Jumbotron />
 			<div className="container">
@@ -18,7 +18,7 @@ const Home = () => {
 				</div>
 			</div>
 			<Footer />
-		</div>
+		</>
 	);
 };
 
